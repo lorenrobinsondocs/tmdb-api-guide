@@ -35,3 +35,4 @@ markdown_extensions:
 
 nav:
   - Overview: index.md
+  - Quickstart: quickstart.md

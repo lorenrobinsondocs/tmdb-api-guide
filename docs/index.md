@@ -1,17 +1,19 @@
-# Welcome to MkDocs
+# TMDB API Guide
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+A practical guide to The Movie Database API, written for developers making their first requests.
 
-## Commands
+TMDB provides a free REST API for movie and TV data — titles, cast, images, ratings, and search. This guide covers authentication, the requests you'll make most often, and what goes wrong when they fail.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Where to start
 
-## Project layout
+If you have never called the API before, begin with the [Quickstart](quickstart.md). It takes about five minutes and ends with a working search request.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+If you already have a key and want specifics, the reference section documents endpoints, error codes, and rate limits.
+
+## What this guide assumes
+
+You can run commands in a terminal, and you have a free TMDB account. No prior API experience is needed. Examples are shown in curl, Python, and JavaScript.
+
+## What this guide is not
+
+This is not a replacement for TMDB's official reference. It is a working guide — the things that trip people up, the responses you actually get back, and how to read them.
