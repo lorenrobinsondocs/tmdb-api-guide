@@ -1,0 +1,37 @@
+site_name: TMDB API Guide
+site_description: A developer guide to The Movie Database API
+site_url: https://lorenrobinsondocs.github.io/tmdb-api-guide/
+repo_url: https://github.com/lorenrobinsondocs/tmdb-api-guide
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - content.tabs.link
+    - search.suggest
+  palette:
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - tables
+
+nav:
+  - Overview: index.md
