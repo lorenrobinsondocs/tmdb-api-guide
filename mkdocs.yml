@@ -36,3 +36,5 @@ markdown_extensions:
 nav:
   - Overview: index.md
   - Quickstart: quickstart.md
+  - Reference:
+    - Errors: reference/errors.md 
