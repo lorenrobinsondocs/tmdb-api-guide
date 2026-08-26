@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://lorenrobinsondocs.github.io/tmdb-api-guide/</loc>
+         <lastmod>2026-08-26</lastmod>
+    </url>
+    <url>
+         <loc>https://lorenrobinsondocs.github.io/tmdb-api-guide/quickstart/</loc>
+         <lastmod>2026-08-26</lastmod>
+    </url>
+    <url>
+         <loc>https://lorenrobinsondocs.github.io/tmdb-api-guide/reference/errors/</loc>
+         <lastmod>2026-08-26</lastmod>
+    </url>
+    <url>
+         <loc>https://lorenrobinsondocs.github.io/tmdb-api-guide/reference/images/</loc>
+         <lastmod>2026-08-26</lastmod>
+    </url>
+</urlset>
