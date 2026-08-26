@@ -38,3 +38,4 @@ nav:
   - Quickstart: quickstart.md
   - Reference:
     - Errors: reference/errors.md 
+    - Images: reference/images.md
