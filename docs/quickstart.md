@@ -15,7 +15,7 @@ Never paste your key directly into a script or commit it to a repository. Store 
 PowerShell:
 
 ```powershell
-$key = "your_api_key_here"
+$env:TMDB_KEY = "your_api_key_here"
 ```
 
 macOS and Linux:
@@ -29,7 +29,7 @@ export TMDB_KEY="your_api_key_here"
 Search for a movie by title.
 
 ```powershell
-curl.exe "https://api.themoviedb.org/3/search/movie?query=Heat&api_key=$key"
+curl.exe "https://api.themoviedb.org/3/search/movie?query=Heat&api_key=$env:TMDB_KEY"
 ```
 
 The same request in Python:
